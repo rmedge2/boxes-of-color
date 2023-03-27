@@ -1,0 +1,10 @@
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: #000;
+}
