@@ -7,10 +7,10 @@ console.log(boxes)
 //     box.style.backgroundColor = 'red'
 // }
 
-let randomMode
+let randomMode = false;
 
 boxes.forEach(box => box.addEventListener('click', ()=>{
-    if(randomMode=false){
+    if(randomMode===false){
         box.style.backgroundColor = box.style.backgroundColor === color ? 'black' : color
     }
     else{
