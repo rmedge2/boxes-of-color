@@ -8,3 +8,15 @@ section {
     width: 150px;
     background-color: #000;
 }
+
+header {
+    display:flex;
+}
+button {
+    width: 150px;
+    height: 30px;
+}
+.random{
+    display:flex;
+    justify-content: center;
+}
